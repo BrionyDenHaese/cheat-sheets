@@ -50,4 +50,4 @@ Als dit een foutmelding geeft bij een van de 2 moet er eerst iets anders gebeure
 ```
 ssh-add /home/briony/.ssh/id_rsa
 ```
-*Dit is terug de repository waar de keys zich bevinden, en hierbij zal er opnieuw naar de passphrase gevraagd worden, wanneer deze juist is ingegeven zou de bovenstaande test van de verbinding wel moeten lukken, en zou de SSH keypair juist tot stand moeten gebracht zijn
+* Dit is terug de repository waar de keys zich bevinden, en hierbij zal er opnieuw naar de passphrase gevraagd worden, wanneer deze juist is ingegeven zou de bovenstaande test van de verbinding wel moeten lukken, en zou de SSH keypair juist tot stand moeten gebracht zijn
