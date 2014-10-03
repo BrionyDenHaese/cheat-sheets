@@ -13,10 +13,11 @@ Het volgende is om een klein bestand te maken en dit up te loaden:
 * git push -u origin master
 
 ##2) Een bestand aanpassen in bitbucket
-* echo "Sebastien Pattyn" >> contributors.txt *Dit is gewoon een voorbeeld van een aanpassing van een bestand, je kan ook gewoon in de folder een bestand zetten en dit uploaden*
-* git add contributors.txt
-* git commit -m '*Gekozen tekst bij commit*'
-* git push -u origin master
-
+´´´
+echo "Sebastien Pattyn" >> contributors.txt *Dit is gewoon een voorbeeld van een aanpassing van een bestand, je kan ook gewoon in de folder een bestand zetten en dit uploaden*
+git add contributors.txt
+git commit -m '*Gekozen tekst bij commit*'
+git push -u origin master
+´´´
 ##3)
 
