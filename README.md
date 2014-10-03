@@ -8,9 +8,9 @@ mkdir /path/to/your/project
 ```
 cd /path/to/your/project
 git init
-git remote add origin
+git remote add origin --link naar bitbucket die hier nodig is, bij mij was dit https://BrionyDH@bitbucket.org/sebastienpattyn/labo-taken.git--
 ```
-*link naar bitbucket die hier nodig is, bij mij was dit https://BrionyDH@bitbucket.org/sebastienpattyn/labo-taken.git*
+
 
 Het volgende is om een klein bestand te maken en dit up te loaden:
 ```
