@@ -29,5 +29,25 @@ git add contributors.txt
 git commit -m '*Gekozen tekst bij commit*'
 git push -u origin master
 ```
-##3)
+##3) SSH pubic en private key genereren
 
+```
+ssh-keygen -t rsa -C "comment"
+```
+* Als je in de standaard repository deze key wil opslaan, 'enter' nogmaals, zoniet geef zelf een repository in. Geef daarna ook een passphrase op.
+```
+cat /root/.ssh/id_rsa.pub
+```
+* Dit is de repository waar de key bij is gestored, dit kan mogelijks op een andere plaats zijn.
+* Kopieer deze key naar GitHub en BitBucket bij de SSH-keys
+* Vervolgens testen we de verbinding
+```
+ssh -T git@github.com
+ssh -T git@bitbucket.org
+```
+
+Als dit een foutmelding geeft bij een van de 2 moet er eerst iets anders gebeuren:
+```
+ssh-add /home/briony/.ssh/id_rsa
+```
+*Dit is terug de repository waar de keys zich bevinden, en hierbij zal er opnieuw naar de passphrase gevraagd worden, wanneer deze juist is ingegeven zou de bovenstaande test van de verbinding wel moeten lukken, en zou de SSH keypair juist tot stand moeten gebracht zijn
