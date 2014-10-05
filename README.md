@@ -29,7 +29,7 @@ git add contributors.txt
 git commit -m '*Gekozen tekst bij commit*'
 git push -u origin master
 ```
-##3) SSH pubic en private key genereren
+##3) SSH public en private key genereren
 
 ```
 ssh-keygen -t rsa -C "comment"
