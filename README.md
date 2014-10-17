@@ -104,3 +104,16 @@ vagrant init centos70-nocm.box
 vagrant up
 ```
 * Dit zou geen problemen mogen geven en succesvol slagen. 
+
+
+
+
+
+
+
+
+- name: Configure firewall
+  firewalld: service:http state=enabled permanent={{ item }}
+  with_items:
+  - yes
+  - no
