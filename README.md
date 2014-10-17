@@ -96,3 +96,11 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
 ```
+## Centos Basebox opstellen via Vagrant
+* Als je de basebox hebt van centos, zet deze in een map, en start als volgt in de terminal, nadat je met cd in de juiste map zit. (basebox noemt centos70-nocm.box)
+
+```
+vagrant init centos70-nocm.box
+vagrant up
+```
+* Dit zou geen problemen mogen geven en succesvol slagen. 
