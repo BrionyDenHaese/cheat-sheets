@@ -78,3 +78,18 @@ git pull remote master
 of
 git pull origin master
 ```
+
+##6) Opzetten werkomgeving
+hostpc: Ubuntu 14
+
+* installeren virtualbox 4.3 
+* installeren vagrant 1.6.5
+* commando's base box: 
+    * vagrant init chef/centos-7.0
+    * vagrant up
+* Ansible installeren
+   * sudo apt-get install software-properties-common
+   * sudo apt-add-repository ppa:ansible/ansible
+   * sudo apt-get update
+   * sudo apt-get install ansible
+
