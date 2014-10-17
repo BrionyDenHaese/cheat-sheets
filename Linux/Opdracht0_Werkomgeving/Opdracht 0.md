@@ -1,4 +1,4 @@
-#Cheat-sheets Briony Den Haese
+#Cheat-sheets Opdracht 0
 
 ##1) Initiele setup voor bestanden via terminal up te loaden op bitbucket
 ```
@@ -105,6 +105,12 @@ vagrant up
 ```
 * Dit zou geen problemen mogen geven en succesvol slagen. 
 
+* Om een statisch ip in te stellen ga je naar de Vagrantfile en verander je naar het volgende:
+```
+	Vagrant.configure("2") do |config|
+  		config.vm.network "private_network", ip: "192.168.50.4"
+	end
+```
 
 
 
